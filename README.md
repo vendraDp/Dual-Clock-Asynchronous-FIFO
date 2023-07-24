@@ -7,7 +7,7 @@ A dual-clock asynchronous FIFO is a type of First-In-First-Out (FIFO) memory tha
 In many digital designs, different functional blocks might operate at different clock frequencies or may be asynchronous due to external factors. In such cases, a dual-clock asynchronous FIFO serves as a buffer to allow safe data transfer between these clock domains, ensuring data integrity and preventing issues like data loss or corruption.
 
 ## FIFO Block Diagram
-![image](https://github.com/vendraDp/Dual-Clock-Asynchronous-FIFO/assets/107578770/d8982d26-b587-4a12-a6e1-481d5c8a837e)
+![image](https://github.com/vendraDp/Dual-Clock-Asynchronous-FIFO/assets/107578770/c363cb22-7471-4ffd-91e3-82b704a5c44d)
 
 
 ## Working explanation of dual-clock asynchronous FIFO 
