@@ -1,0 +1,15 @@
+ module WRITE_RST_N 
+ (output reg [addrsize:0] wrst_n,
+input clk);
+integer count=0;
+always @( posedge clk)
+
+if (count<2) 
+wrst_n <= 1;
+else 
+wrst_n <= 0; 
+
+count = count +1 ;
+
+
+endmodule
