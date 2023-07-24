@@ -27,3 +27,13 @@ Synchronization: The synchronization between the read and write operations is cr
 Empty and Full Conditions: The FIFO has logic to detect when it is empty or full, which helps to manage the read and write operations effectively.
 
 Handshake Signals: To manage the asynchronous nature of the two clocks, handshake signals are used to control the flow of data between the two clock domains. This handshake ensures that data is not overwritten or read incorrectly during the transfer.
+
+
+## RESULTS
+
+![image](https://github.com/vendraDp/Dual-Clock-Asynchronous-FIFO/assets/107578770/1a688143-7167-4095-b3bf-e244c37c95b8)
+
+![image](https://github.com/vendraDp/Dual-Clock-Asynchronous-FIFO/assets/107578770/ec528a92-6cb7-4d00-bf5e-b9af42223ef2)
+
+![image](https://github.com/vendraDp/Dual-Clock-Asynchronous-FIFO/assets/107578770/51a819be-3d8e-430e-83bb-7409fdaf22e5)
+
